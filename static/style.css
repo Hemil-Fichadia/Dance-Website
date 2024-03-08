@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+
+#logo{
+    display:flex;
+    color:white;
+    align-items:center;
+    margin:0px 14px;
+    font-size:20px;
+    margin-right:32px
+}
+#logo img{
+    height:42px;
+    filter:invert(1);
+}
+
+
+#navbar{
+    background-color:#a072ce;
+    padding:10px 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+#navbar ul{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+}
+#navbar li{
+    list-style:none;
+    
+}
+#navbar li a{
+    color: white;
+    font-size: 1.1rem;
+    text-decoration: none;
+    padding: 10px 23px;
+    font-weight: bold;
+    font-size: 22px;
+}
+#navbar li a:hover{
+    color:black;
+}
+
+
+#introSection{
+    background: center / cover no-repeat url("/static/bg.jpg");
+    color:white;
+    height:450px;
+    padding-bottom:40px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    font-size:40px;
+    font-family: 'Montserrat', sans-serif;
+}
+#introSection div.small{
+    font-size:30px;
+    padding:7px;
+}
+
+
+#missionSection{
+    height: 318px;
+    font-family: 'Montserrat', sans-serif;
+    width: 83%;
+    margin: auto;
+}
+#missionSection h2{
+    text-align:center;
+    padding-top:23px;
+    font-size:34px;
+}
+.card{
+    font-family: 'Montserrat', sans-serif;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 28%;
+    margin: 23px 33px;
+    height: 200px;
+    display: inline-block;
+}
+.card h3{
+    text-align:center;
+    margin-top:20px;
+}
+.card-box{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+.card-img{
+    height: 126px;
+    padding: 0px 14px;
+    margin: 11px 12px;
+}
+.card-img img{
+    height:inherit;
+}
+.card-content{
+    padding:0px 24px;
+}
+.card-content p{
+    font-size:16px;
+}
+
+
+#sponsorSection{
+    height:300px;
+    background-color:rgb(224, 202, 174);
+    font-family: 'Montserrat', sans-serif;
+}
+#sponsorSection h2{
+    text-align: center;
+    padding-top: 23px;
+    font-size: 34px;
+}
+
+#sponsors{
+    height: 202px;
+    max-width: 1000px;
+    margin: 24px auto;
+}
+.spImage{
+    height:80%;
+    margin:20px;
+}
+
+
+#footer{
+    height:60px;
+    font-family: 'Montserrat', sans-serif;
+    background-color:black;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    font-size:20px;
+}
